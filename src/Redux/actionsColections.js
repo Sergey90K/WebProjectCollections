@@ -7,11 +7,11 @@ import { CREATE_COLECTIONS, DELETE_COLECTIONS, EDIT_COLECTIONS, SHOW_COLECTIONS,
     READ_NAME_COLECTIONS,SET_KEY_ITHEMS,LIKED, READ_LIKE,DISLIKE, CREATE_COMENT,READ_COMMENT, UPLOAD_PICTURES, UPLOAD_PICTURES_ITHEM,
     SEARCH_ITHEM, SEARCH_ITHEM_EMPTY, CLOSE_SEARCH} from "./types";
 
-//const urlDataUser = process.env.REACT_APP_URL
-//const urlDataUserData = process.env.REACT_APP_URL_FILE
-//const firebaseConfig = process.env.REACT_APP_CONFIG
- const urlDataUserData = 'gs://projectcolections.appspot.com'
- const urlDataUser = 'https://projectcolections-default-rtdb.europe-west1.firebasedatabase.app'
+    const urlDataUser = process.env.REACT_APP_URL
+    const urlDataUserData = process.env.REACT_APP_URL_FILE
+    //const firebaseConfig = process.env.REACT_APP_CONFIG
+// const urlDataUserData = 'gs://projectcolections.appspot.com'
+ //const urlDataUser = 'https://projectcolections-default-rtdb.europe-west1.firebasedatabase.app'
  const firebaseConfig = {
     apiKey: "AIzaSyByArrDI_UvRl-dutEG8DIEvHOXtYJ0Wss",
     authDomain: "projectcolections.firebaseapp.com",
